@@ -1,0 +1,368 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+}
+
+/* Header Styling */
+.headerCont {
+  width: 100%;
+  height: 70px;
+  margin-bottom: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.navLogo {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navBars {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navitem {
+  width: 43%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-weight: 700;
+  color: gray;
+}
+
+.links {
+  text-decoration: none;
+  color: gray;
+}
+
+.links:hover {
+  font-size: 18px;
+  color: #a187d2;
+  transition: 0.5s;
+}
+
+.signInDiv {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signInBtn {
+  width: 90%;
+  height: 70%;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 700;
+  color: gray;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.signInBtn:hover {
+  width: 95%;
+  height: 75%;
+  transition: 0.5s;
+}
+
+.signInBtn:active {
+  opacity: 0.5;
+}
+
+.SliderDiv {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.TopCards {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.HomeCards {
+  width: 45%;
+  height: 240px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #a187d2;
+  cursor: pointer;
+}
+
+.HomeCards:hover {
+  width: 47%;
+  height: 250px;
+  background-color: #ffcf64;
+  transition: 0.7s;
+}
+
+.leftCont {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.rightCont {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.TopCards {
+  width: 100%;
+  height: auto;
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.FeatureProd {
+  width: 100%;
+  height: auto;
+  padding: 20px 30px;
+  background-color: aqua;
+}
+
+.FeatureProd>H1 {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.featuredCatCont {
+  width: 100%;
+  height: auto;
+  padding: 25px 40px;
+}
+
+.CatCards {
+  width: 200px;
+  height: 190px;
+  border-radius: 5px;
+  margin: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.CatCards:hover{
+  width: 210px;
+  height: 210px;
+  border: 1px solid gray;
+  transition: 0.5s;
+}
+
+.catCardsImg {
+  width: 100%;
+  height: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.catCardsTitle {
+  width: 100%;
+  height: 15%;
+  text-align: center;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flashSale {
+  width: 100%;
+  height: auto;
+  padding: 20px 40px;
+  margin-bottom: 20px;
+}
+
+.flashCards, .allProdCards {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 20px 0px;
+}
+
+.flashCard {
+  width: 24%;
+  height: 230px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.flashCard:hover {
+  width: 25%;
+  height: 250px;
+  transition: 0.5s;
+}
+
+.flashCardsImg {
+  width: 100%;
+  height: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flashCardstitle {
+  width: 100%;
+  height: 15%;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  background-color: #181818;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+.allProducts{
+  width: 100%;
+  height: auto;
+  padding: 30px;
+}
+
+.detailCatDiv{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.DetailCatCont{
+  width: 40%;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 26px;
+}
+
+.detailCatImg{
+  width: 40%;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.DetailCont{
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.DetailContImg{
+  width: 40%;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.DetailContCont{
+  width: 40%;
+  height: 450px;
+  padding: 30px;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.desPara{
+  font-size: 18px;
+  color: gray;
+  margin-top: 20px;
+}
+
+.ContactUsPage{
+  width: 100%;
+  height: auto;
+  padding: 30px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ContactUsForm{
+  width: 40%;
+  height: 100%;
+  padding: 30px 30px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border-radius: 10px;
+}
+
+.nameInput{
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  border: 1px solid #a187d2;
+  font-size: 16px;
+}
+
+.submitBtn{
+  width: 100%;
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+  background-color: #a187d2;
+  color: white;
+}
+
+.submitBtn:active{
+  opacity: 0.5;
+}
